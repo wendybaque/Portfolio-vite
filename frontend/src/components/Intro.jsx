@@ -16,8 +16,7 @@ function Intro() {
               </div>
               <div className="intro-title-item">Javascript</div>
               <div className="intro-title-item">React.js</div>
-              <div className="intro-title-item">Express.js</div>
-              <div className="intro-title-item">Node.js</div>
+              <div className="intro-title-item">Express.js | Node.js </div>
               <div className="intro-title-item">Auteure de romans</div>
             </div>
           </div>

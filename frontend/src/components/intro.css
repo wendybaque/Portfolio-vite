@@ -7,11 +7,48 @@
 }
 .intro-left {
   flex: 1;
+  border: 1px solid red;
 }
 .intro-right {
   flex: 1;
+  border: 1px solid green;
 }
 
 .intro-left-wrapper {
   padding: 50px;
+}
+
+.intro-hello {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.intro-name {
+  font-size: 60px;
+}
+
+.intro-title {
+  height: 50px;
+  overflow: hidden;
+}
+
+.intro-title-wrapper {
+  height:100%;
+  animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  25%{transform:translateY(-50px);}
+  50%{transform:translateY(-100px);}
+  75%{transform:translateY(-150px);}
+  100%{transform:translateY(-200px);}
+}
+
+.intro-title-item {
+  height: 50px;
+  font-size: 30px;
+  font-weight:bold;
+  color: var(--third-color);
+  display: flex;
+  align-items:center;
 }

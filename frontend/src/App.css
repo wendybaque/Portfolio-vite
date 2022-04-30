@@ -1,4 +1,18 @@
-body {
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-light: aliceblue;
+  --color-dark: #141414;
+  --first-color: #274C77;
+  --second-color: #6096BA;
+  --third-color: #A3CEF1;
+}
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -53,4 +67,4 @@ code {
 
 button {
   font-size: calc(10px + 2vmin);
-}
+} */

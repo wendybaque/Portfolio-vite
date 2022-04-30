@@ -1,11 +1,10 @@
-import Home from "./pages/Home";
+import React from "react";
 import Intro from "./components/Intro";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Home />
       <Intro />
       <p>coucou</p>
     </div>

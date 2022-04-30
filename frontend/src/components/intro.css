@@ -2,7 +2,7 @@
   display: flex;
   height: 100vh;
   background-color: var(--first-color);
-  color:var(--color-light);
+  color: var(--color-light);
   font-weight: bold;
 }
 .intro-left {
@@ -10,4 +10,8 @@
 }
 .intro-right {
   flex: 1;
+}
+
+.intro-left-wrapper {
+  padding: 50px;
 }

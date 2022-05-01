@@ -49,6 +49,7 @@ function Intro() {
         </div>
       </div>
       <div className="intro-right">
+        <div className="intro-bg" />
         <img src={photocv} alt="Wendy Baqué" className="intro-img" />
         <div className="intro-right-wrapper" />
       </div>

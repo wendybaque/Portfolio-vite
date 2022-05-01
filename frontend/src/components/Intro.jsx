@@ -5,7 +5,6 @@ function Intro() {
   return (
     <div className="intro">
       <div className="intro-left">
-        left container
         <div className="intro-left-wrapper">
           <h2 className="intro-hello">Hello, my name is</h2>
           <h1 className="intro-name">Wendy Baqué</h1>

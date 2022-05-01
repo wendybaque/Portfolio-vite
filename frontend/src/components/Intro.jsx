@@ -21,8 +21,11 @@ function Intro() {
             </div>
           </div>
           <div className="intro-description">
-            Après un bilan de compétences réalisé en full remote, je suis en
-            reconversion dans le domaine du développement web et web mobile. 💻
+            <p>
+              Après un bilan de compétences réalisé en full remote, je suis en
+              reconversion dans le domaine du développement web et web mobile.
+              💻
+            </p>
             {/* <div><p>Je suis une personne rigoureuse, ce qui me permet de mener à bien
             mes #projets et activités confiées de A à Z et de bien gérer mon
             temps de travail. Je fais également preuve de #créativité et d

@@ -1,5 +1,6 @@
 import React from "react";
 import "./intro.css";
+import photocv from "../assets/photocv.png";
 
 function Intro() {
   return (
@@ -48,7 +49,7 @@ function Intro() {
         </div>
       </div>
       <div className="intro-right">
-        right container
+        <img src={photocv} alt="Wendy Baqué" className="intro-img" />
         <div className="intro-right-wrapper" />
       </div>
     </div>

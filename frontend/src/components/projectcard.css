@@ -27,6 +27,7 @@
 .project-img {
   width: 100%;
   transition: all 10s ease;
+  z-index: 3;
 }
 
 .product:hover .product-img {

@@ -21,3 +21,6 @@ function ProjectList() {
   );
 }
 export default ProjectList;
+
+// ligne 17 avec name :
+// <ProjectCard key={item.id} name={item.name} img={item.img} link={item.link} />

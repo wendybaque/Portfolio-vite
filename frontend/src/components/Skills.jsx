@@ -1,15 +1,14 @@
 import React from "react";
-import html from "../assets/LogoHTML.png";
-import css from "../assets/LogoCSS3.png";
+import htmlcss from "../assets/htmlcss.webp";
 import javascript from "../assets/LogoJavascript.png";
 import canva from "../assets/LogoCanva.png";
-import expressnode from "../assets/LogoExpressNode.png";
+import expressnode from "../assets/LogoExpressNode2.png";
 import figma from "../assets/LogoFigma.png";
 import git from "../assets/LogoGit.webp";
-import github from "../assets/LogoGithub.png";
+import github from "../assets/github.webp";
 import marvel from "../assets/LogoMarvel.png";
 import react from "../assets/LogoReact.png";
-import tailwind from "../assets/LogoTailwind.png";
+import tailwind from "../assets/LogoTailwindcss.png";
 import "./skills.css";
 
 function Skills() {
@@ -18,12 +17,8 @@ function Skills() {
       <h1 className="skills-title">Mes compétences</h1>
       <div className="skill-card">
         <div className="card">
-          <img src={html} alt="Logo HTML" className="skill-img" />
-          <h1 className="skill-card-title">HTML5</h1>
-        </div>
-        <div className="card">
-          <img src={css} alt="Logo CSS" className="skill-img" />
-          <h1 className="skill-card-title">CSS3</h1>
+          <img src={htmlcss} alt="Logo HTML et CSS" className="skill-img" />
+          <h1 className="skill-card-title">HTML5 + CSS3</h1>
         </div>
         <div className="card">
           <img src={tailwind} alt="Logo tailwind" className="skill-img" />

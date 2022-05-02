@@ -19,6 +19,8 @@
 }
 
 .project-list-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
   margin: 20px 0px;
 }
 

@@ -62,7 +62,7 @@
   height: 50px;
   font-size: 30px;
   font-weight: bold;
-  color: var(--third-color);
+  color: var(--second-color);
   display: flex;
   align-items: center;
 }
@@ -82,4 +82,9 @@
   position: absolute;
   top: 0;
   right: 0;
+}
+
+span {
+  font-family: "Baskerville", sans-serif;
+  color: var(--third-color);
 }

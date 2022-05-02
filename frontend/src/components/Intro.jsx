@@ -7,8 +7,10 @@ function Intro() {
     <div className="intro">
       <div className="intro-left">
         <div className="intro-left-wrapper">
-          <h2 className="intro-hello">Hello, my name is</h2>
-          <h1 className="intro-name">Wendy Baqué</h1>
+          <h2 className="intro-hello">Bienvenue !</h2>
+          <h1 className="intro-name">
+            Je suis <span>Wendy Baqué</span>
+          </h1>
           <div className="intro-title">
             <div className="intro-title-wrapper">
               <div className="intro-title-item">

@@ -9,6 +9,9 @@ function ProjectCard() {
         <div className="project-circle" />
         <div className="project-circle" />
       </div>
+      <a href="https://linktr.ee/Antiigone" target="_blank" rel="noreferrer">
+        <img src="" alt="" className="project-img" />
+      </a>
     </div>
   );
 }

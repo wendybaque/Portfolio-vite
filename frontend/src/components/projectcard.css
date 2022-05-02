@@ -8,16 +8,16 @@
 }
 
 .project-browser {
-    height: 20px;
-    background-color: var(--third-color);
-    display: flex;
-    align-items: center;
+  height: 20px;
+  background-color: var(--third-color);
+  display: flex;
+  align-items: center;
 }
 
 .project-circle {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    margin: 3px;
-    background-color: aliceblue;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin: 3px;
+  background-color: aliceblue;
 }

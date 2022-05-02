@@ -12,12 +12,12 @@ function ProjectList() {
         </p>
       </div>
       <div className="project-list">
-        <ProjectCard /> KodeWork
-        <ProjectCard /> Mood
-        <ProjectCard /> Projet 3 à venir
-        <ProjectCard /> Hackathon 1
-        <ProjectCard /> Hackathon 2
-        <ProjectCard /> Checkpoint 4
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
       </div>
     </div>
   );

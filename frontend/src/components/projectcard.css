@@ -1,0 +1,23 @@
+.product {
+  width: 30%;
+  height: 40vh;
+  margin: 20px 10px;
+  border: solid 2px #a3cef1;
+  border-radius: 5px 5px 0px 0px;
+  overflow: hidden;
+}
+
+.project-browser {
+    height: 20px;
+    background-color: var(--third-color);
+    display: flex;
+    align-items: center;
+}
+
+.project-circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: aliceblue;
+}

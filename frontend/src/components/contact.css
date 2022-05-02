@@ -1,0 +1,32 @@
+.contact {
+  position: relative;
+  height: 100vh;
+  color: aliceblue;
+  background-color: var(--first-color);
+}
+
+.contact-bg {
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  background-color: var(--third-color);
+}
+
+.contact-wrapper {
+  padding: 50px;
+  display: flex;
+}
+
+.contact-left {
+  flex: 1;
+}
+
+.contact-right {
+  flex: 1;
+}
+
+.contact-title {
+  font-family: "Baskerville", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}

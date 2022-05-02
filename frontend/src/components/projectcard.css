@@ -12,6 +12,8 @@
   background-color: var(--third-color);
   display: flex;
   align-items: center;
+  position: sticky;
+  z-index: 2;
 }
 
 .project-circle {
@@ -20,4 +22,13 @@
   border-radius: 50%;
   margin: 3px;
   background-color: aliceblue;
+}
+
+.project-img {
+  width: 100%;
+  transition: all 10s ease;
+}
+
+.product:hover .product-img {
+  transform: translateY(-100%);
 }

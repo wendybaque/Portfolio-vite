@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import "./projectlist.css";
+import { projects } from "./data";
 
 function ProjectList() {
   return (
@@ -12,12 +13,9 @@ function ProjectList() {
         </p>
       </div>
       <div className="project-list">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        {projects.map((item) => (
+          <ProjectCard key={item.id} img={item.img} link={item.link} />
+        ))}
       </div>
     </div>
   );

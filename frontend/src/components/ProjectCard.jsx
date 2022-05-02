@@ -1,17 +1,19 @@
 import React from "react";
 import "./projectcard.css";
+// import { projects } from "./data";
 
-function ProjectCard() {
+// eslint-disable-next-line react/prop-types
+function ProjectCard({ img, link }) {
   return (
     <div className="product">
       <div className="project-browser">
         <div className="project-circle" />
         <div className="project-circle" />
         <div className="project-circle" />
+        <a href={link} target="_blank" rel="noreferrer">
+          <img src={img} alt="my projects" className="project-img" />
+        </a>
       </div>
-      <a href="https://linktr.ee/Antiigone" target="_blank" rel="noreferrer">
-        <img src="" alt="" className="project-img" />
-      </a>
     </div>
   );
 }

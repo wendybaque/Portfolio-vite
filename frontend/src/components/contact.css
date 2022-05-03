@@ -29,4 +29,20 @@
   font-family: "Baskerville", sans-serif;
   font-size: 50px;
   font-weight: 400;
+  width: 80%;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+  font-weight: 300;
+  width: 75%;
+}
+
+.contact-icon {
+  color: var(--third-color);
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
 }

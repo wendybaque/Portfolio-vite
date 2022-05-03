@@ -40,8 +40,17 @@
   display: flex;
   align-items: center;
   margin: 50px 0px;
-  font-weight: 300;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
   width: 75%;
+}
+
+a:hover {
+  color: #141414;
+}
+
+a:visited {
+  color: aliceblue;
 }
 
 .contact-icon {

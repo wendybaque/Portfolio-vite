@@ -23,13 +23,18 @@ function Contact() {
             </div>
             <div className="contact-info-item">
               <img src={linkedinsvg} alt="linkedin" className="contact-icon" />{" "}
-              <a href="https://www.linkedin.com/in/wendy-baqu%C3%A9/">
+              <a
+                href="https://www.linkedin.com/in/wendy-baqu%C3%A9/"
+                target="_blanck"
+              >
                 Wendy Baqué{" "}
               </a>
             </div>
             <div className="contact-info-item">
               <img src={githubsvg} alt="github" className="contact-icon" />
-              <a href="https://github.com/wendybaque">wendybaque</a>
+              <a href="https://github.com/wendybaque" target="_blanck">
+                wendybaque
+              </a>
             </div>
           </div>
         </div>

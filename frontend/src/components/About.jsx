@@ -1,8 +1,8 @@
 import React from "react";
 import "./about.css";
 import cv from "../assets/CVrecherchestage.png";
-import linkedin from "../assets/LogoLinkedin.png";
-import github from "../assets/LogoGithub.png";
+import linkedin from "../assets/linkedin.svg";
+import github from "../assets/github.svg";
 
 function About() {
   return (
@@ -33,9 +33,18 @@ function About() {
         <div className="about-social-medias">
           <div className="about-linkedin">
             <img src={linkedin} alt="linkedin" className="about-linkedin-img" />
+            <a
+              href="https://www.linkedin.com/in/wendy-baqu%C3%A9/"
+              target="_blanck"
+            >
+              LinkedIn
+            </a>
           </div>
           <div className="about-github">
             <img src={github} alt="github" className="about-github-img" />
+            <a href="https://github.com/wendybaque" target="_blanck">
+              Github
+            </a>
           </div>
         </div>
       </div>

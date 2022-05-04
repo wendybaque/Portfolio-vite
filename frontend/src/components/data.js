@@ -3,7 +3,7 @@ export const projects = [
   {
     id: 1,
     name: "Kodework",
-    img: "https://zupimages.net/viewer.php?id=22/18/7a7w.png",
+    img: "https://saucycorentin.github.io/assets/logo/logoDESKTOP.png",
     link: "https://saucycorentin.github.io/",
   },
   {
@@ -33,6 +33,13 @@ export const projects = [
   {
     id: 6,
     name: "Checkpoint 4",
+    img: "https://www.cfdt-ibm.org/wp-content/uploads/checkpoint-6.png",
+    link: "https://linktr.ee/Antiigone",
+  },
+
+  {
+    id: 7,
+    name: "Site d'auteure",
     img: "https://www.cfdt-ibm.org/wp-content/uploads/checkpoint-6.png",
     link: "https://linktr.ee/Antiigone",
   },

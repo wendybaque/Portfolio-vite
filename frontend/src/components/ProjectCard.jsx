@@ -5,7 +5,7 @@ function ProjectCard() {
   return (
     <div className="project-wrapper">
       <div className="project-card">
-        <div className="project-card-title">Site d auteure</div>
+        <div className="project-card-title">Site d&apos;auteure</div>
         <div className="project-card-skills">React | Tailwindcss</div>
         <img src="" alt="" className="project-card-img" />
         <div className="project-card-description">
@@ -21,7 +21,7 @@ function ProjectCard() {
       </div>
 
       <div className="project-card">
-        <div className="project-card-title">Site d auteure</div>
+        <div className="project-card-title">Site d&apos;auteure</div>
         <div className="project-card-skills">React | Tailwindcss</div>
         <img src="" alt="" className="project-card-img" />
         <div className="project-card-description">
@@ -37,7 +37,7 @@ function ProjectCard() {
       </div>
 
       <div className="project-card">
-        <div className="project-card-title">Site d auteure</div>
+        <div className="project-card-title">Site d&apos;auteure</div>
         <div className="project-card-skills">React | Tailwindcss</div>
         <img src="" alt="" className="project-card-img" />
         <div className="project-card-description">
@@ -53,7 +53,7 @@ function ProjectCard() {
       </div>
 
       <div className="project-card">
-        <div className="project-card-title">Site d auteure</div>
+        <div className="project-card-title">Site d&apos;auteure</div>
         <div className="project-card-skills">React | Tailwindcss</div>
         <img src="" alt="" className="project-card-img" />
         <div className="project-card-description">
@@ -69,7 +69,7 @@ function ProjectCard() {
       </div>
 
       <div className="project-card">
-        <div className="project-card-title">Site d auteure</div>
+        <div className="project-card-title">Site d&apos;auteure</div>
         <div className="project-card-skills">React | Tailwindcss</div>
         <img src="" alt="" className="project-card-img" />
         <div className="project-card-description">
@@ -85,7 +85,7 @@ function ProjectCard() {
       </div>
 
       <div className="project-card">
-        <div className="project-card-title">Site d auteure</div>
+        <div className="project-card-title">Site d&apos;auteure</div>
         <div className="project-card-skills">React | Tailwindcss</div>
         <img src="" alt="" className="project-card-img" />
         <div className="project-card-description">
@@ -101,7 +101,7 @@ function ProjectCard() {
       </div>
 
       <div className="project-card">
-        <div className="project-card-title">Site d auteure</div>
+        <div className="project-card-title">Site d&apos;auteure</div>
         <div className="project-card-skills">React | Tailwindcss</div>
         <img src="" alt="" className="project-card-img" />
         <div className="project-card-description">
@@ -117,7 +117,7 @@ function ProjectCard() {
       </div>
 
       <div className="project-card">
-        <div className="project-card-title">Site d auteure</div>
+        <div className="project-card-title">Site d&apos;auteure</div>
         <div className="project-card-skills">React | Tailwindcss</div>
         <img src="" alt="" className="project-card-img" />
         <div className="project-card-description">
@@ -133,23 +133,23 @@ function ProjectCard() {
       </div>
 
       <div className="project-card">
-        <div className="project-card-title">Site d auteure</div>
+        <div className="project-card-title">Site d&apos;auteure</div>
         <div className="project-card-skills">React | Tailwindcss</div>
         <img src="" alt="" className="project-card-img" />
         <div className="project-card-description">
           <div className="project-card-links">
             <div className="links-github">
-              <a href="sqdfc">Github</a>
+              <a href="sqdfc">Voir le code</a>
             </div>
             <div className="links-page">
-              <a href="efcaerc">Voir le code</a>
+              <a href="efcaerc">Voir le site</a>
             </div>
           </div>
         </div>
       </div>
 
       <div className="project-card">
-        <div className="project-card-title">Site d auteure</div>
+        <div className="project-card-title">Site d&apos;auteure</div>
         <div className="project-card-skills">React | Tailwindcss</div>
         <img src="" alt="" className="project-card-img" />
         <div className="project-card-description">

@@ -1,25 +1,25 @@
 .project-wrapper {
   display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
 }
 
 .project-card {
   width: 30vh;
   height: 50vh;
   margin: 10px;
-  border: solid 2px #a3cef1;
+  border: solid 2px #6096ba;
   border-radius: 5px 5px 0px 0px;
   overflow: hidden;
   display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
 }
 
 /* .project-browser {

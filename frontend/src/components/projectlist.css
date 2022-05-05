@@ -4,8 +4,8 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: var(--first-color);
-  color: var(--color-light);
+  background-color: var(--color-light);
+  color: var(--color-dark);
 }
 
 .project-list-texts {
@@ -13,6 +13,7 @@
 }
 
 .project-list-title {
+  color: var(--second-color);
   font-family: "Baskerville", sans-serif;
   font-size: 50px;
   font-weight: 400;

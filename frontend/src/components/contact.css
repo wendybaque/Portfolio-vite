@@ -1,15 +1,19 @@
 .contact {
   position: relative;
   height: 100vh;
-  color: aliceblue;
-  background-color: var(--first-color);
+  color: var(--color-dark);
+  background-color: var(--color-light);
 }
 
 .contact-bg {
-  position: absolute;
-  width: 20px;
-  height: 100%;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
   background-color: var(--third-color);
+  width: 45%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
 }
 
 .contact-wrapper {
@@ -18,6 +22,7 @@
 }
 
 .contact-left {
+  z-index: 3;
   flex: 1;
 }
 
@@ -30,6 +35,7 @@
 }
 
 .contact-title {
+  color: var(--second-color);
   font-family: "Baskerville", sans-serif;
   font-size: 50px;
   font-weight: 400;
@@ -50,11 +56,11 @@ a:hover {
 }
 
 a:visited {
-  color: aliceblue;
+  color: var(--second-color);
 }
 
 .contact-icon {
-  color: var(--third-color);
+  color: var(--color-dark);
   width: 30px;
   height: 30px;
   margin-right: 20px;
@@ -74,6 +80,7 @@ input {
   width: 100%;
   height: 50px;
   border: 1px solid #141414;
+  border-radius: 5px;
   margin: 10px 0px;
   padding-left: 10px;
 }
@@ -82,6 +89,7 @@ textarea {
   width: 100%;
   margin: 10px 0px;
   padding-left: 10px;
+  border-radius: 5px;
 }
 
 button {
@@ -89,7 +97,7 @@ button {
   border-radius: 5px;
   background-color: var(--third-color);
   color: #141414;
-  font-weight: 500;
+  font-weight: bold;
   padding: 15px;
   cursor: pointer;
 }

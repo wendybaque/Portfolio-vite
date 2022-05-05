@@ -25,9 +25,9 @@
 }
 
 .project-card-img {
-  padding: 5px;
   height: 300px;
   width: 250px;
+  object-fit: cover;
 }
 
 .project-card-title {
@@ -51,7 +51,7 @@
 }
 
 .links-page {
-  padding: 10px;
+  padding: 5px;
 }
 
 /* .project-browser {

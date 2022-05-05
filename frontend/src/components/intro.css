@@ -39,6 +39,8 @@
 }
 
 .intro-title-wrapper {
+  padding: 20px;
+  margin: 20px;
   height: 100%;
   animation: move 10s ease-in-out infinite alternate;
 }
@@ -65,6 +67,7 @@
   color: var(--second-color);
   display: flex;
   align-items: center;
+
 }
 
 .intro-img {

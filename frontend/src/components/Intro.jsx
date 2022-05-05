@@ -26,7 +26,12 @@ function Intro() {
             <p>
               Après un bilan de compétences réalisé en full remote, je suis en
               reconversion dans le domaine du développement web et web mobile.
-              💻
+              💻{" "}
+            </p>
+            <p>
+              Après une formation intensive et passionnate à la Wild Code
+              School, je souhaite passer mon titre RNCP et m&apos;épanouir dans
+              un travail porteur d&apos;avenir et de sens.
             </p>
           </div>
         </div>

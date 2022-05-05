@@ -14,21 +14,21 @@ function About() {
         </div>
       </div>
       <div className="about-right">
-        <h1 className="about-title">About me</h1>
+        <h1 className="about-title">Qui suis-je ?</h1>
         <p className="about-subtitle">
           🚀 Les valeurs les plus importantes dans le monde du travail sont,
-          selon moi, lentraide, l écoute, l expression de soi, l épanouissement
-          et la réussite.
+          selon moi, l&apos;entraide, l&apos;écoute, l&apos;expression de soi,
+          l&apos;épanouissement et la réussite.
         </p>
         <p className="about-description">
           ➕ Mon petit plus ? Je suis développeuse, mais aussi psychologue !
-          Ainsi, je suis attirée par l UX et l UI. C est un domaine qui me
-          parle, et qui me tient toujours à cœur. Mon regard est un bonus : 100%
-          user first !
+          Ainsi, je suis attirée par l&apos;UX et l&apos;UI. Ce sont des
+          domaines qui me parlent, et qui me tiennent toujours à cœur. Mon
+          regard est un bonus : <span>100% user first ! </span>
         </p>
         <p className="about-description">
           Motivée, rigoureuse, assidue et ponctuelle, je suis ouverte à tout
-          type d entreprise.
+          type d&apos;entreprise.
         </p>
         <div className="about-social-medias">
           <div className="about-linkedin">

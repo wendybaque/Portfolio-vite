@@ -1,145 +1,27 @@
 import React from "react";
 import "./projectcard.css";
 
+import logoauteure from "../assets/logoauteure.png";
+// import comingsoon from "../assets/comingsoon.jpg";
+// import kodework from "../assets/GoFullPageKodework.png";
+
 function ProjectCard() {
   return (
     <div className="project-wrapper">
       <div className="project-card">
         <div className="project-card-title">Site d&apos;auteure</div>
         <div className="project-card-skills">React | Tailwindcss</div>
-        <img src="" alt="" className="project-card-img" />
+        <img src={logoauteure} alt="logo" className="project-card-img" />
         <div className="project-card-description">
+          <p>
+            Création de mon site d&apos;auteure pour présenter mes romans et mon
+            parcours littéraire.
+          </p>
           <div className="project-card-links">
             <div className="links-github">
-              <a href="sqdfc">Github</a>
-            </div>
-            <div className="links-page">
-              <a href="efcaerc">Voir le code</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="project-card">
-        <div className="project-card-title">Site d&apos;auteure</div>
-        <div className="project-card-skills">React | Tailwindcss</div>
-        <img src="" alt="" className="project-card-img" />
-        <div className="project-card-description">
-          <div className="project-card-links">
-            <div className="links-github">
-              <a href="sqdfc">Github</a>
-            </div>
-            <div className="links-page">
-              <a href="efcaerc">Voir le code</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="project-card">
-        <div className="project-card-title">Site d&apos;auteure</div>
-        <div className="project-card-skills">React | Tailwindcss</div>
-        <img src="" alt="" className="project-card-img" />
-        <div className="project-card-description">
-          <div className="project-card-links">
-            <div className="links-github">
-              <a href="sqdfc">Github</a>
-            </div>
-            <div className="links-page">
-              <a href="efcaerc">Voir le code</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="project-card">
-        <div className="project-card-title">Site d&apos;auteure</div>
-        <div className="project-card-skills">React | Tailwindcss</div>
-        <img src="" alt="" className="project-card-img" />
-        <div className="project-card-description">
-          <div className="project-card-links">
-            <div className="links-github">
-              <a href="sqdfc">Github</a>
-            </div>
-            <div className="links-page">
-              <a href="efcaerc">Voir le code</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="project-card">
-        <div className="project-card-title">Site d&apos;auteure</div>
-        <div className="project-card-skills">React | Tailwindcss</div>
-        <img src="" alt="" className="project-card-img" />
-        <div className="project-card-description">
-          <div className="project-card-links">
-            <div className="links-github">
-              <a href="sqdfc">Github</a>
-            </div>
-            <div className="links-page">
-              <a href="efcaerc">Voir le code</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="project-card">
-        <div className="project-card-title">Site d&apos;auteure</div>
-        <div className="project-card-skills">React | Tailwindcss</div>
-        <img src="" alt="" className="project-card-img" />
-        <div className="project-card-description">
-          <div className="project-card-links">
-            <div className="links-github">
-              <a href="sqdfc">Github</a>
-            </div>
-            <div className="links-page">
-              <a href="efcaerc">Voir le code</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="project-card">
-        <div className="project-card-title">Site d&apos;auteure</div>
-        <div className="project-card-skills">React | Tailwindcss</div>
-        <img src="" alt="" className="project-card-img" />
-        <div className="project-card-description">
-          <div className="project-card-links">
-            <div className="links-github">
-              <a href="sqdfc">Github</a>
-            </div>
-            <div className="links-page">
-              <a href="efcaerc">Voir le code</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="project-card">
-        <div className="project-card-title">Site d&apos;auteure</div>
-        <div className="project-card-skills">React | Tailwindcss</div>
-        <img src="" alt="" className="project-card-img" />
-        <div className="project-card-description">
-          <div className="project-card-links">
-            <div className="links-github">
-              <a href="sqdfc">Github</a>
-            </div>
-            <div className="links-page">
-              <a href="efcaerc">Voir le code</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="project-card">
-        <div className="project-card-title">Site d&apos;auteure</div>
-        <div className="project-card-skills">React | Tailwindcss</div>
-        <img src="" alt="" className="project-card-img" />
-        <div className="project-card-description">
-          <div className="project-card-links">
-            <div className="links-github">
-              <a href="sqdfc">Voir le code</a>
+              <a href="https://github.com/wendybaque/site-auteure">
+                Voir le code
+              </a>
             </div>
             <div className="links-page">
               <a href="efcaerc">Voir le site</a>
@@ -151,14 +33,174 @@ function ProjectCard() {
       <div className="project-card">
         <div className="project-card-title">Site d&apos;auteure</div>
         <div className="project-card-skills">React | Tailwindcss</div>
-        <img src="" alt="" className="project-card-img" />
+        <img src={logoauteure} alt="logo" className="project-card-img" />
         <div className="project-card-description">
+          <p>
+            Création de mon site d&apos;auteure pour présenter mes romans et mon
+            parcours littéraire.
+          </p>
           <div className="project-card-links">
             <div className="links-github">
-              <a href="sqdfc">Github</a>
+              <a href="https://github.com/wendybaque/site-auteure">
+                Voir le code
+              </a>
             </div>
             <div className="links-page">
-              <a href="efcaerc">Voir le code</a>
+              <a href="efcaerc">Voir le site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="project-card">
+        <div className="project-card-title">Site d&apos;auteure</div>
+        <div className="project-card-skills">React | Tailwindcss</div>
+        <img src={logoauteure} alt="logo" className="project-card-img" />
+        <div className="project-card-description">
+          <p>
+            Création de mon site d&apos;auteure pour présenter mes romans et mon
+            parcours littéraire.
+          </p>
+          <div className="project-card-links">
+            <div className="links-github">
+              <a href="https://github.com/wendybaque/site-auteure">
+                Voir le code
+              </a>
+            </div>
+            <div className="links-page">
+              <a href="efcaerc">Voir le site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="project-card">
+        <div className="project-card-title">Site d&apos;auteure</div>
+        <div className="project-card-skills">React | Tailwindcss</div>
+        <img src={logoauteure} alt="logo" className="project-card-img" />
+        <div className="project-card-description">
+          <p>
+            Création de mon site d&apos;auteure pour présenter mes romans et mon
+            parcours littéraire.
+          </p>
+          <div className="project-card-links">
+            <div className="links-github">
+              <a href="https://github.com/wendybaque/site-auteure">
+                Voir le code
+              </a>
+            </div>
+            <div className="links-page">
+              <a href="efcaerc">Voir le site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="project-card">
+        <div className="project-card-title">Site d&apos;auteure</div>
+        <div className="project-card-skills">React | Tailwindcss</div>
+        <img src={logoauteure} alt="logo" className="project-card-img" />
+        <div className="project-card-description">
+          <p>
+            Création de mon site d&apos;auteure pour présenter mes romans et mon
+            parcours littéraire.
+          </p>
+          <div className="project-card-links">
+            <div className="links-github">
+              <a href="https://github.com/wendybaque/site-auteure">
+                Voir le code
+              </a>
+            </div>
+            <div className="links-page">
+              <a href="efcaerc">Voir le site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="project-card">
+        <div className="project-card-title">Site d&apos;auteure</div>
+        <div className="project-card-skills">React | Tailwindcss</div>
+        <img src={logoauteure} alt="logo" className="project-card-img" />
+        <div className="project-card-description">
+          <p>
+            Création de mon site d&apos;auteure pour présenter mes romans et mon
+            parcours littéraire.
+          </p>
+          <div className="project-card-links">
+            <div className="links-github">
+              <a href="https://github.com/wendybaque/site-auteure">
+                Voir le code
+              </a>
+            </div>
+            <div className="links-page">
+              <a href="efcaerc">Voir le site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="project-card">
+        <div className="project-card-title">Site d&apos;auteure</div>
+        <div className="project-card-skills">React | Tailwindcss</div>
+        <img src={logoauteure} alt="logo" className="project-card-img" />
+        <div className="project-card-description">
+          <p>
+            Création de mon site d&apos;auteure pour présenter mes romans et mon
+            parcours littéraire.
+          </p>
+          <div className="project-card-links">
+            <div className="links-github">
+              <a href="https://github.com/wendybaque/site-auteure">
+                Voir le code
+              </a>
+            </div>
+            <div className="links-page">
+              <a href="efcaerc">Voir le site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="project-card">
+        <div className="project-card-title">Site d&apos;auteure</div>
+        <div className="project-card-skills">React | Tailwindcss</div>
+        <img src={logoauteure} alt="logo" className="project-card-img" />
+        <div className="project-card-description">
+          <p>
+            Création de mon site d&apos;auteure pour présenter mes romans et mon
+            parcours littéraire.
+          </p>
+          <div className="project-card-links">
+            <div className="links-github">
+              <a href="https://github.com/wendybaque/site-auteure">
+                Voir le code
+              </a>
+            </div>
+            <div className="links-page">
+              <a href="efcaerc">Voir le site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="project-card">
+        <div className="project-card-title">Site d&apos;auteure</div>
+        <div className="project-card-skills">React | Tailwindcss</div>
+        <img src={logoauteure} alt="logo" className="project-card-img" />
+        <div className="project-card-description">
+          <p>
+            Création de mon site d&apos;auteure pour présenter mes romans et mon
+            parcours littéraire.
+          </p>
+          <div className="project-card-links">
+            <div className="links-github">
+              <a href="https://github.com/wendybaque/site-auteure">
+                Voir le code
+              </a>
+            </div>
+            <div className="links-page">
+              <a href="efcaerc">Voir le site</a>
             </div>
           </div>
         </div>

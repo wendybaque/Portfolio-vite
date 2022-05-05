@@ -8,18 +8,50 @@
 }
 
 .project-card {
-  width: 30vh;
-  height: 50vh;
+  background-color: var(--first-color);
+  filter: drop-shadow(0 0 0.75rem #141414);
+  width: 40vh;
+  height: 60vh;
   margin: 10px;
   border: solid 2px #6096ba;
-  border-radius: 5px 5px 0px 0px;
+  border-radius: 5px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+
+.project-card-img {
+  padding: 5px;
+  height: 300px;
+  width: 250px;
+}
+
+.project-card-title {
+  font-weight: bold;
+}
+
+.project-card-description {
+  font-weight: bold;
+}
+
+.project-card-links {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  align-content: space-around;
+  align-content: space-between;
+}
+.links-github {
+  padding: 5px;
+}
+
+.links-page {
+  padding: 10px;
 }
 
 /* .project-browser {

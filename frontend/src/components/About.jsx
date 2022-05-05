@@ -17,7 +17,7 @@ function About() {
         <h1 className="about-title">About me</h1>
         <p className="about-subtitle">
           🚀 Les valeurs les plus importantes dans le monde du travail sont,
-          selon moi, l entraide, l écoute, l expression de soi, l épanouissement
+          selon moi, lentraide, l écoute, l expression de soi, l épanouissement
           et la réussite.
         </p>
         <p className="about-description">

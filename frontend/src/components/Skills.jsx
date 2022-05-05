@@ -2,13 +2,13 @@ import React from "react";
 import htmlcss from "../assets/htmlcss.webp";
 import javascript from "../assets/LogoJavascript.png";
 import canva from "../assets/LogoCanva.png";
-import expressnode from "../assets/LogoExpressNode2.png";
+import expressnode from "../assets/logoexpressnodepng.png";
 import figma from "../assets/LogoFigma.png";
-import git from "../assets/LogoGit.webp";
-import github from "../assets/github.webp";
+import git from "../assets/logogit.png";
+import github from "../assets/logogithub.png";
 import marvel from "../assets/LogoMarvel.png";
 import react from "../assets/LogoReact.png";
-import tailwind from "../assets/LogoTailwindcss.png";
+import tailwind from "../assets/logotailwindcss.png";
 import "./skills.css";
 
 function Skills() {

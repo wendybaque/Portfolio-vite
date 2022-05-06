@@ -34,8 +34,8 @@
 }
 
 .intro-title {
-  height: 50px;
-  overflow: hidden;
+  height: 100px;
+  overflow:hidden;
 }
 
 .intro-title-wrapper {
@@ -61,7 +61,7 @@
 }
 
 .intro-title-item {
-  height: 50px;
+  height: 100px;
   font-size: 30px;
   font-weight: bold;
   color: var(--second-color);
@@ -89,4 +89,40 @@
 span {
   font-family: "Baskerville", sans-serif;
   color: var(--third-color);
+}
+
+.intro-social-medias {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.intro-linkedin-img {
+  width: 60px;
+  height: 60px;
+}
+
+.intro-github-img {
+  width: 60px;
+  height: 60px;
+}
+
+.intro-linkedin {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.intro-github {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
 }

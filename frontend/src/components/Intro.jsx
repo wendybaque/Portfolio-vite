@@ -1,6 +1,8 @@
 import React from "react";
 import "./intro.css";
 import photocv from "../assets/photocv.png";
+import linkedin from "../assets/linkedin.svg";
+import github from "../assets/github.svg";
 
 function Intro() {
   return (
@@ -33,6 +35,27 @@ function Intro() {
               School, je souhaite passer mon titre RNCP et m&apos;épanouir dans
               un travail porteur d&apos;avenir et de sens.
             </p>
+          </div>
+          <div className="intro-social-medias">
+            <div className="intro-linkedin">
+              <img
+                src={linkedin}
+                alt="linkedin"
+                className="intro-linkedin-img"
+              />
+              <a
+                href="https://www.linkedin.com/in/wendy-baqu%C3%A9/"
+                target="_blanck"
+              >
+                LinkedIn
+              </a>
+            </div>
+            <div className="intro-github">
+              <img src={github} alt="github" className="intro-github-img" />
+              <a href="https://github.com/wendybaque" target="_blanck">
+                Github
+              </a>
+            </div>
           </div>
         </div>
       </div>

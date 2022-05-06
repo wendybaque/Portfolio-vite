@@ -3,11 +3,11 @@ import "./projectcard.css";
 
 import logoauteure from "../assets/logoauteure.png";
 import comingsoon from "../assets/comingsoon.jpg";
-// import hackathon from "../assets/hackathon.jpg";
-// import project from "../assets/project.jpg";
-// import resto from "../assets/reactpropstate.png";
-// import simpsons from "../assets/simpsonsquote.png";
-// import techchallenge from "../assets/techchallengewild.png";
+import hackathon from "../assets/hackathon.jpg";
+import project from "../assets/project.png";
+import resto from "../assets/resto.png";
+import simpsons from "../assets/simpsons.png";
+import techchallenge from "../assets/techchallenge.png";
 import kodework from "../assets/kodework.png";
 
 function ProjectCard() {
@@ -97,13 +97,53 @@ function ProjectCard() {
       </div>
 
       <div className="project-card">
-        <div className="project-card-title">Site d&apos;auteure</div>
-        <div className="project-card-skills">React | Tailwindcss</div>
-        <img src={logoauteure} alt="logo" className="project-card-img" />
+        <div className="project-card-title">Projet de groupe 3 - à venir</div>
+        <div className="project-card-skills">Backend | Bases de données</div>
+        <img src={project} alt="projet" className="project-card-img" />
         <div className="project-card-description">
           <p>
-            Création de mon site d&apos;auteure pour présenter mes romans et mon
-            parcours littéraire.
+            Site qui fait des trucs en backend et que je ne sais pas encore ce
+            que c&apos;est.
+          </p>
+          <div className="project-card-links">
+            <div className="links-github">
+              <a href="lyguhij">Voir le code</a>
+            </div>
+            <div className="links-page">
+              <a href="efcaerc">Voir le site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="project-card">
+        <div className="project-card-title">Hackathon 1 - à venir</div>
+        <div className="project-card-skills">Machin | Truc | Bidule</div>
+        <img src={hackathon} alt="logo" className="project-card-img" />
+        <div className="project-card-description">
+          <p>
+            Hackathon de 48 haures, dates, projet de groupe qui a pour objectif
+            de blablabla.
+          </p>
+          <div className="project-card-links">
+            <div className="links-github">
+              <a href="xtcfyvguhbi">Voir le code</a>
+            </div>
+            <div className="links-page">
+              <a href="efcaerc">Voir le site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="project-card">
+        <div className="project-card-title">Hackathon 2 - à venir</div>
+        <div className="project-card-skills">Machin | Truc | Bidule</div>
+        <img src={hackathon} alt="logo" className="project-card-img" />
+        <div className="project-card-description">
+          <p>
+            Hackathon de 48 heures, dates, projet de groupe qui a pour objectif
+            de blablabla.
           </p>
           <div className="project-card-links">
             <div className="links-github">
@@ -119,21 +159,22 @@ function ProjectCard() {
       </div>
 
       <div className="project-card">
-        <div className="project-card-title">Site d&apos;auteure</div>
-        <div className="project-card-skills">React | Tailwindcss</div>
-        <img src={logoauteure} alt="logo" className="project-card-img" />
+        <div className="project-card-title">Workshop - Menu de restaurant</div>
+        <div className="project-card-skills">React props et state</div>
+        <img src={resto} alt="logo" className="project-card-img" />
         <div className="project-card-description">
           <p>
-            Création de mon site d&apos;auteure pour présenter mes romans et mon
-            parcours littéraire.
+            Exercice d&apos; études visant à mettre en pratique les props et le
+            state de React pour créer un menu de restaurant dynamique en
+            fonction des actions de l&apos;utilisateur.
           </p>
           <div className="project-card-links">
             <div className="links-github">
-              <a href="https://github.com/wendybaque/site-auteure">
+              <a href="https://codesandbox.io/s/r27u2l?file=/public/index.html">
                 Voir le code
               </a>
             </div>
-            <div className="links-page">
+            <div className="https://r27u2l.csb.app/">
               <a href="efcaerc">Voir le site</a>
             </div>
           </div>
@@ -141,88 +182,48 @@ function ProjectCard() {
       </div>
 
       <div className="project-card">
-        <div className="project-card-title">Site d&apos;auteure</div>
-        <div className="project-card-skills">React | Tailwindcss</div>
-        <img src={logoauteure} alt="logo" className="project-card-img" />
+        <div className="project-card-title">
+          Workshop - Citations des Simpsons
+        </div>
+        <div className="project-card-skills">React fetch, axios et API</div>
+        <img src={simpsons} alt="logo" className="project-card-img" />
         <div className="project-card-description">
           <p>
-            Création de mon site d&apos;auteure pour présenter mes romans et mon
-            parcours littéraire.
+            Exercice d&apos; études visant à fetcher les données d&apos;une AP
+            avec React. Si l&apos;on clique sur le bouton, une citation de
+            Simpson aléatoire apparaît.
           </p>
           <div className="project-card-links">
             <div className="links-github">
-              <a href="https://github.com/wendybaque/site-auteure">
-                Voir le code
-              </a>
+              <a href="https://codesandbox.io/s/0b4euv">Voir le code</a>
             </div>
             <div className="links-page">
-              <a href="efcaerc">Voir le site</a>
+              <a href="https://0b4euv.csb.app/">Voir le site</a>
             </div>
           </div>
         </div>
       </div>
 
       <div className="project-card">
-        <div className="project-card-title">Site d&apos;auteure</div>
-        <div className="project-card-skills">React | Tailwindcss</div>
-        <img src={logoauteure} alt="logo" className="project-card-img" />
-        <div className="project-card-description">
-          <p>
-            Création de mon site d&apos;auteure pour présenter mes romans et mon
-            parcours littéraire.
-          </p>
-          <div className="project-card-links">
-            <div className="links-github">
-              <a href="https://github.com/wendybaque/site-auteure">
-                Voir le code
-              </a>
-            </div>
-            <div className="links-page">
-              <a href="efcaerc">Voir le site</a>
-            </div>
-          </div>
+        <div className="project-card-title">
+          Tech Challenge - entrée à la Wild Code School
         </div>
-      </div>
-
-      <div className="project-card">
-        <div className="project-card-title">Site d&apos;auteure</div>
-        <div className="project-card-skills">React | Tailwindcss</div>
-        <img src={logoauteure} alt="logo" className="project-card-img" />
+        <div className="project-card-skills">HTML5 | CSS3 | Javascript</div>
+        <img src={techchallenge} alt="logo" className="project-card-img" />
         <div className="project-card-description">
           <p>
-            Création de mon site d&apos;auteure pour présenter mes romans et mon
-            parcours littéraire.
+            Tech challenge pour l&apos;entrée à la Wild Code School, mon premier
+            code, mes premières expériences... qui m&apos;ont permis
+            d&apos;accéder à cette super formation !
           </p>
           <div className="project-card-links">
             <div className="links-github">
-              <a href="https://github.com/wendybaque/site-auteure">
+              <a href="https://codesandbox.io/s/techchallenge-web-dev-starter-forked-pbldt?file=/index.html">
                 Voir le code
               </a>
             </div>
             <div className="links-page">
-              <a href="efcaerc">Voir le site</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="project-card">
-        <div className="project-card-title">Site d&apos;auteure</div>
-        <div className="project-card-skills">React | Tailwindcss</div>
-        <img src={logoauteure} alt="logo" className="project-card-img" />
-        <div className="project-card-description">
-          <p>
-            Création de mon site d&apos;auteure pour présenter mes romans et mon
-            parcours littéraire.
-          </p>
-          <div className="project-card-links">
-            <div className="links-github">
-              <a href="https://github.com/wendybaque/site-auteure">
-                Voir le code
-              </a>
-            </div>
-            <div className="links-page">
-              <a href="efcaerc">Voir le site</a>
+              <a href="https://pbldt.csb.app/">Voir le site</a>
             </div>
           </div>
         </div>

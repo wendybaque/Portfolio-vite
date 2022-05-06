@@ -10,10 +10,10 @@
 .project-card {
   background-color: var(--first-color);
   filter: drop-shadow(0 0 0.75rem #141414);
-  width: 40vh;
+  width: 45vh;
   height: 60vh;
   margin: 10px;
-  border: solid 2px #6096ba;
+  border: solid 1px #6096ba;
   border-radius: 5px;
   overflow: hidden;
   display: flex;
@@ -25,20 +25,26 @@
 }
 
 .project-card-img {
+  padding: 5px;
   height: 300px;
-  width: 250px;
+  width: 300px;
   object-fit: cover;
 }
 
 .project-card-title {
-  font-weight: bold;
+  padding: 5px;
+  font-weight: bolder;
 }
 
 .project-card-description {
+  padding: 5px;
+  font-size: 14px;
   font-weight: bold;
 }
 
 .project-card-links {
+  font-weight: bold;
+  padding: 5px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import cv from "../assets/CVrecherchestage.png";
+import cvportfolio from "../assets/cvportfolio.png";
 import logoauteure from "../assets/logoauteure.png";
 
 function About() {
@@ -9,7 +9,7 @@ function About() {
       <div className="about-left">
         {/* <div className="about-card bg" /> */}
         <div className="about-card">
-          <img src={cv} alt="curriculum vitae" className="about-img" />
+          <img src={cvportfolio} alt="curriculum vitae" className="about-img" />
         </div>
       </div>
       <div className="about-right">
@@ -26,8 +26,8 @@ function About() {
           regard est un bonus : <span>100% user first ! </span>
         </p>
         <p className="about-description">
-          Motivée, rigoureuse, assidue et ponctuelle, je suis ouverte à tout
-          type d&apos;entreprise.
+          <span>Motivée, rigoureuse, assidue et ponctuelle </span>, je suis
+          ouverte à tout type d&apos;entreprise.
         </p>
         <div className="about-auteure-wrapper">
           <p className="about-auteure">
@@ -39,8 +39,8 @@ function About() {
           <p className="about-auteure">
             Cela me permet de développer des compétences organisationnelles, de
             maîtriser les normes rédactionnelles et, surtout, d&apos;être à
-            l&apos; avec le storytelling lorsque j&apos; un projet à présenter
-            aux clients et collaborateurs.{" "}
+            l&apos; avec le <span>storytelling</span> lorsque j&apos; un projet
+            à présenter aux clients et collaborateurs.{" "}
           </p>
           <img
             src={logoauteure}

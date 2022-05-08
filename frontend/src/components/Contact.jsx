@@ -67,9 +67,9 @@ function Contact() {
         </div>
         <div className="contact-right">
           <p className="contact-description">
-            <span>Un projet ? une mission ? </span> <br />N hésitez pas à me
-            contacter sur Linkedin ou via le formulaire ci-dessous. Je vous
-            répondrai dans les plus brefs délais.
+            <span>Un projet ? Une mission ? Une question ?</span> <br />
+            N&apos;hésitez pas à me contacter sur Linkedin ou via le formulaire
+            ci-dessous. Je vous répondrai dans les plus brefs délais.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input type="text" placeholder="Nom" name="user_name" />

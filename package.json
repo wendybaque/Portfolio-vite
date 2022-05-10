@@ -1,20 +1,16 @@
 {
-  "homepage" :"https://wendybaque.github.io/Portfolio-.git",
   "name": "template-fullstack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "react-scripts build",
-    "preview": "vite preview",
     "setup": "npm i && husky install && npm --prefix ./frontend i && npm --prefix ./backend i",
     "dev": "concurrently -n front,back -c green,yellow -t \"HH:mm:ss\" -p \"{name} {time}\" \"npm --prefix ./frontend run dev\" \"npm --prefix ./backend run dev\"",
     "dev-front": "npm --prefix ./frontend run dev",
     "dev-back": "npm --prefix ./backend run dev",
     "lint": "npm --prefix ./frontend run lint && npm --prefix ./backend run lint",
-    "fix": "npm --prefix ./frontend run fix && npm --prefix ./backend run fix",
-    "predeploy":"npm run build",    
-    "deploy":"gh-pages -d build"
+    "fix": "npm --prefix ./frontend run fix && npm --prefix ./backend run fix"
+
   },
   "keywords": [],
   "author": "Wild Code School",

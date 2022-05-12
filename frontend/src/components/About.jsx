@@ -23,11 +23,14 @@ function About() {
           ➕ Mon petit plus ? Je suis développeuse, mais aussi psychologue !
           Ainsi, je suis attirée par l&apos;UX et l&apos;UI. Ce sont des
           domaines qui me parlent, et qui me tiennent toujours à cœur. Mon
-          regard est un bonus : <span>100% user first ! </span>
+          regard est un bonus :{" "}
+          <span className="spanabout">100% user first ! </span>
         </p>
         <p className="about-description">
-          <span>Motivée, rigoureuse, assidue et ponctuelle </span>, je suis
-          ouverte à tout type d&apos;entreprise.
+          <span className="spanabout">
+            Motivée, rigoureuse, assidue et ponctuelle{" "}
+          </span>
+          , je suis ouverte à tout type d&apos;entreprise.
         </p>
         <div className="about-auteure-wrapper">
           <p className="about-auteure">
@@ -39,8 +42,8 @@ function About() {
           <p className="about-auteure">
             Cela me permet de développer des compétences organisationnelles, de
             maîtriser les normes rédactionnelles et, surtout, d&apos;être à
-            l&apos; avec le <span>storytelling</span> lorsque j&apos; un projet
-            à présenter aux clients et collaborateurs.{" "}
+            l&apos; avec le <span className="spanabout">storytelling</span>{" "}
+            lorsque j&apos; un projet à présenter aux clients et collaborateurs.{" "}
           </p>
           <img
             src={logoauteure}

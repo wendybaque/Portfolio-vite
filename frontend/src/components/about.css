@@ -106,3 +106,7 @@
   filter: drop-shadow(0 0 0.75rem #141414);
   border-radius: 5px;
 }
+
+.spanabout {
+  color: var(--second-color);
+}

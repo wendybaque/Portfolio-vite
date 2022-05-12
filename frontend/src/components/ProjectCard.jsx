@@ -2,13 +2,14 @@ import React from "react";
 import "./projectcard.css";
 
 import logoauteure from "../assets/logoauteure.png";
-import comingsoon from "../assets/comingsoon.jpg";
 import hackathon from "../assets/hackathon.jpg";
 import project from "../assets/project.png";
 import resto from "../assets/resto.png";
 import simpsons from "../assets/simpsons.png";
 import techchallenge from "../assets/techchallenge.png";
-import kodework from "../assets/kodework.png";
+import kodework from "../assets/kodeworklogo.png";
+import Mood from "../assets/moodlogo.png";
+import Save from "../assets/savelogo.png";
 
 function ProjectCard() {
   return (
@@ -69,7 +70,7 @@ function ProjectCard() {
           Projet de groupe 2 - Mood, une application de choix
         </div>
         <div className="project-card-skills">React et Hooks</div>
-        <img src={comingsoon} alt="logo" className="project-card-img" />
+        <img src={Mood} alt="logo" className="project-card-img" />
         <div className="project-card-description">
           <p>
             Site internet responsive permettant de fair une association entre
@@ -88,7 +89,11 @@ function ProjectCard() {
               </a>
             </div>
             <div className="links-page">
-              <a href="efcaerc" target="_blank" rel="noreferrer">
+              <a
+                href="https://mood-une-application-de-choix.netlify.app/home"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Voir le site
               </a>
             </div>
@@ -117,17 +122,21 @@ function ProjectCard() {
       </div>
 
       <div className="project-card">
-        <div className="project-card-title">Hackathon 1 - à venir</div>
-        <div className="project-card-skills">Machin | Truc | Bidule</div>
-        <img src={hackathon} alt="logo" className="project-card-img" />
+        <div className="project-card-title">Hackathon 1 - Save Ourselves</div>
+        <div className="project-card-skills">React | Tailwind | Github</div>
+        <img src={Save} alt="logo" className="project-card-img" />
         <div className="project-card-description">
           <p>
-            Hackathon de 48 haures, dates, projet de groupe qui a pour objectif
-            de blablabla.
+            Hackathon de 48 heures sur le thème de l&apos;écologie, par groupe
+            de 4 personnes, sur toute la Wild Code School. Nous avons réalisé
+            une application responsive permettant de mesurer l&apos;empreinte
+            écologique d&apos;un utilisateur en fonction de ses éco-gestes.
           </p>
           <div className="project-card-links">
             <div className="links-github">
-              <a href="xtcfyvguhbi">Voir le code</a>
+              <a href="https://github.com/KevinLavigne/hackathon">
+                Voir le code
+              </a>
             </div>
             <div className="links-page">
               <a href="efcaerc">Voir le site</a>

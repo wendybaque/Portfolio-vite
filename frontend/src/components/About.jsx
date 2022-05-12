@@ -45,11 +45,13 @@ function About() {
             l&apos; avec le <span className="spanabout">storytelling</span>{" "}
             lorsque j&apos; un projet à présenter aux clients et collaborateurs.{" "}
           </p>
-          <img
-            src={logoauteure}
-            alt="logo auteure antiigone"
-            className="about-auteure-img"
-          />
+          <a href="https://linktr.ee/Antiigone" target="_blanck">
+            <img
+              src={logoauteure}
+              alt="logo auteure antiigone"
+              className="about-auteure-img"
+            />
+          </a>
           <a href="https://linktr.ee/Antiigone" target="_blanck">
             En savoir plus sur mon activité d&apos;auteure
           </a>

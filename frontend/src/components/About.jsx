@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import cvportfolio from "../assets/cvportfolio.png";
+import cvportfolio1 from "../assets/CVportfolio.png";
 import logoauteure from "../assets/logoauteure.png";
 
 function About() {
@@ -9,7 +9,11 @@ function About() {
       <div className="about-left">
         {/* <div className="about-card bg" /> */}
         <div className="about-card">
-          <img src={cvportfolio} alt="curriculum vitae" className="about-img" />
+          <img
+            src={cvportfolio1}
+            alt="curriculum vitae"
+            className="about-img"
+          />
         </div>
       </div>
       <div className="about-right">

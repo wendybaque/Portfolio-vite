@@ -132,7 +132,7 @@ span {
     flex-direction: column;
   }
   .intro-left {
-    padding: 10px;
+    /* padding: 10px; */
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -145,5 +145,16 @@ span {
 
   .intro-right {
     flex-direction: column;
+  }
+
+  .intro-img {
+    display: none;
+  }
+  .intro-bg {
+    display: none;
+  }
+
+  .intro-social-medias {
+    margin-top: 2px;
   }
 }

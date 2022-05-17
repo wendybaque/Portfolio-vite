@@ -120,13 +120,18 @@
   .about {
     flex-direction: column;
     text-align: center;
-    margin-top: 50px;
+    margin: 0px;
+    padding: 0px;
   }
   .about-left {
     width: 100%;
-    display: none;
+    height: 1100px;
+    margin: 0px;
+    padding: 0px;
+    /* display: none; */
   }
   .about-right {
-    padding: 20px;
+    display: none;
+
   }
 }

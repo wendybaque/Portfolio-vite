@@ -63,6 +63,17 @@
   padding: 5px;
 }
 
+@media screen and (max-width: 480px) {
+  .project {
+    margin: 2px;
+    padding: 2px;
+  }
+  .project-card {
+    width: 100%;
+    height: 550px;
+  }
+}
+
 /* .project-browser {
   height: 20px;
   background-color: var(--third-color);

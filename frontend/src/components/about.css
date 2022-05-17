@@ -115,3 +115,18 @@
 .spanabout {
   color: var(--second-color);
 }
+
+@media screen and (max-width: 480px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .about-left {
+    width: 100%;
+    display: none;
+  }
+  .about-right {
+    padding: 20px;
+  }
+}

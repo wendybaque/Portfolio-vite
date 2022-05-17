@@ -32,3 +32,15 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 480px) {
+  .project-list {
+    padding: 10px;
+  }
+  .project-list-texts {
+    width: 100%;
+  }
+  .project-list-description {
+    display: none;
+  }
+}

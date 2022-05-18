@@ -56,9 +56,6 @@ function About() {
               className="about-auteure-img"
             />
           </a>
-          <a href="https://linktr.ee/Antiigone" target="_blanck">
-            En savoir plus sur mon activité d&apos;auteure
-          </a>
         </div>
       </div>
     </div>

@@ -32,22 +32,20 @@ function Intro() {
           </div>
           <div className="intro-social-medias">
             <div className="intro-linkedin">
-              <img
-                src={linkedin}
-                alt="linkedin"
-                className="intro-linkedin-img"
-              />
               <a
                 href="https://www.linkedin.com/in/wendy-baqu%C3%A9/"
                 target="_blanck"
               >
-                LinkedIn
+                <img
+                  src={linkedin}
+                  alt="linkedin"
+                  className="intro-linkedin-img"
+                />{" "}
               </a>
             </div>
             <div className="intro-github">
-              <img src={github} alt="github" className="intro-github-img" />
               <a href="https://github.com/wendybaque" target="_blanck">
-                Github
+                <img src={github} alt="github" className="intro-github-img" />
               </a>
             </div>
           </div>

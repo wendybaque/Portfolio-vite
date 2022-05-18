@@ -1,23 +1,11 @@
 import React from "react";
-import Intro from "./components/Intro";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import ProjectList from "./components/ProjectList";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-// import Toggle from "./components/Toggle";
 import "./App.css";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
-      {/* <Toggle /> */}
-      <Intro />
-      <About />
-      <Skills />
-      <ProjectList />
-      <Contact />
-      <Footer />
+      <Home />
     </div>
   );
 }

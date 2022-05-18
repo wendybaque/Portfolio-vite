@@ -56,11 +56,18 @@
   align-content: space-between;
 }
 .links-github {
+  border: solid 1px #a3cef1;
+  background-color: var(--third-color);
   padding: 5px;
+  margin-right: 20px;
+  border-radius: 5px;
 }
 
 .links-page {
   padding: 5px;
+  border: solid 1px #a3cef1;
+  border-radius: 5px;
+  background-color: var(--third-color);
 }
 
 @media screen and (max-width: 480px) {

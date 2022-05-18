@@ -183,8 +183,8 @@ function ProjectCard() {
                 Voir le code
               </a>
             </div>
-            <div className="https://r27u2l.csb.app/">
-              <a href="efcaerc">Voir le site</a>
+            <div className="links-page">
+              <a href="https://r27u2l.csb.app/">Voir le site</a>
             </div>
           </div>
         </div>

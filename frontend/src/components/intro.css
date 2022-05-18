@@ -116,6 +116,7 @@ span {
   justify-content: center;
   align-items: center;
   align-content: stretch;
+  filter: drop-shadow(0 0 0.75rem #a3cef1);
 }
 
 .intro-github {
@@ -125,6 +126,7 @@ span {
   justify-content: center;
   align-items: center;
   align-content: stretch;
+  filter: drop-shadow(0 0 0.75rem #a3cef1);
 }
 
 @media screen and (max-width: 480px) {

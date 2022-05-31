@@ -105,7 +105,7 @@ export default function ProjectCard() {
     <div className="cards" id="cards">
       <div className="cards-container">
         {data.map((d) => (
-          <div className="card">
+          <div className="card-project">
             <div className="top">
               <h2 className="card-title">{d.title}</h2>
               <img src={d.img} alt="logo du projet" className="card-img" />

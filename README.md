@@ -8,7 +8,7 @@ React.js | HTML5 | CSS3
 [wendybaque](https://github.com/wendybaque)
 
 # Lien mis en ligne
-[Consulter mon portfolio](https://portfolio-wendy.vercel.app/)
+[Consulter mon portfolio](https://wendybaquedevweb.netlify.app/)
 
 
 # Quelques ressources d'organisation 
